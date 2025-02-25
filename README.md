@@ -1,21 +1,20 @@
 # Wiktionary-Tree
 An object structure of Wiktionary, used to extract specific data
-
 `.
-|____$${\color{yellow}playground.py}$$
+|____playground.py <- Updated
 |____.gitignore
 |____pytest.ini
 |____clarity-data
-| |____$${\color{green}reagentkit_data.json}$$
-| |____$${\color{green}automation_data.json}$$
+| |____reagentkit_data.json <- NEW
+| |____automation_data.json <- NEW
 | |____researcher_data.json
 | |____project_data.json
 | |____container_data.json
 | |____process_data.json
 | |____artifact_data.json
-| |____$${\color{green}instrument_data.json}$$
-| |____$${\color{green}reagentlot_data.json}$$
-| |____$${\color{yellow}objects_statistics.txt}$$
+| |____instrument_data.json <- NEW
+| |____reagentlot_data.json <- NEW
+| |____objects_statistics.txt <- Updated
 | |____sample_data.json
 |____.pytest_cache
 | |____.gitignore
@@ -27,33 +26,33 @@ An object structure of Wiktionary, used to extract specific data
 | | | |____stepwise
 | | | |____nodeids
 |____tests
-| |____$${\color{green}test_udfconfig.py}$$
-| |____$${\color{green}test_workflow.py}$$
+| |____test_udfconfig.py <- NEW
+| |____test_workflow.py <- NEW
 | |______init__.py
 | |____test_researcher.py
 | |____test_container.py
-| |____$${\color{green}test_instrument.py}$$
-| |____$${\color{green}test_automation.py}$$
+| |____test_instrument.py <- NEW
+| |____test_automation.py <- NEW
 | |____test_process.py
-| |____$${\color{green}test_samplehistory.py}$$
+| |____test_samplehistory.py <- NEW
 | |____fixtures
-| | |____$${\color{green}instrument_fixtures.py}$$
-| | |____$${\color{green}reagentlot_fixtures.py}$$
+| | |____instrument_fixtures.py <- NEW
+| | |____reagentlot_fixtures.py <- NEW
 | | |____sample_fixtures.py
-| | |____$${\color{green}samplehistory_fixtures.py}$$
+| | |____samplehistory_fixtures.py <- NEW
 | | |____researcher_fixtures.py
-| | |____$${\color{green}automation_fixtures.py}$$
+| | |____automation_fixtures.py <- NEW
 | | |____container_fixtures.py
 | | |____process_fixtures.py
 | | |____file_fixtures.py
-| | |____$${\color{green}reagentkit_fixtures.py}$$
+| | |____reagentkit_fixtures.py <- NEW
 | | |____project_fixtures.py
-| |____$${\color{green}test_protocol.py}$$
-| |____$${\color{green}test_reagentkit.py}$$
+| |____test_protocol.py <- NEW
+| |____test_reagentkit.py <- NEW
 | |____test_sample.py
 | |____test_file.py
-| |____$${\color{yellow}conftest.py}$$
+| |____conftest.py <- Updated
 | |____test_project.py
-| |____$${\color{green}test_reagentlot.py}$$
+| |____test_reagentlot.py <- NEW
 |____conftest.py
-|____README.md`
+|____README.md
