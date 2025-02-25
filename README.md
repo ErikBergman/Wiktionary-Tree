@@ -55,4 +55,4 @@ An object structure of Wiktionary, used to extract specific data
 | |____test_project.py
 | |____test_reagentlot.py <- NEW
 |____conftest.py
-|____README.md
+|____README.md`
